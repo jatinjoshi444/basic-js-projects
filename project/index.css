@@ -1,0 +1,206 @@
+
+h1{
+    text-align: center;
+}
+#content{
+    text-align: center;
+    background-color: green;
+    padding: 50px;
+}
+.input-div{
+    display: inline-block;
+
+}
+.inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+label{
+    font-size: 22px;
+}
+
+/*menu bar*/
+
+#header{
+    text-align: center;
+}
+
+#logo{
+    width: 250px;
+    height: auto;
+}
+
+#menu-bar{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+#menu-bar li{
+    display: inline-block;
+    padding: 15px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#container{
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.pad{
+    padding: 0%;
+    margin: 0;
+}
+
+/* third project*/
+
+.third{
+    padding: 0px 100px;
+}
+
+.color{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#textbox{
+    width: 99%;
+    border-color: red;
+    font-size: 15px;
+}
+
+.thirdp{
+    text-align: center;
+    background-color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+.forth{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    width: 222px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+}
+
+.error{
+    color: red;
+    margin: 0;
+    text-align: left;
+}
+
+.fifth{
+    margin: 0;
+    padding: 20px 100px;
+}
+
+.fifth h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.fifth p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: solid gray 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#color-s{
+    text-align: right;
+}
+
+#white{
+    background-color: white;
+}
+
+#aqua{
+    background-color: aqua;
+}
+
+#violet{
+    background-color: violet;
+}
+
+#red{
+    background-color: red;
+}
+
+
+.sixth{
+    margin: 0;
+}
+
+.slide-container{
+    position: relative;
+    width: 100%;
+}
+
+.slide img{
+    width: 50%;
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: red;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.next{
+    right: 0px;
+}
